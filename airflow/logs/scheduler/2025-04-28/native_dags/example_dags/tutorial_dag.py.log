@@ -531,3 +531,129 @@
 [2025-04-28T11:52:05.717-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:52:05.716-0400] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-28T11:52:05.725-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:52:05.725-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2025-04-28T11:52:05.739-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.056 seconds
+[2025-04-28T11:52:58.673-0400] {processor.py:186} INFO - Started process (PID=34896) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:52:58.683-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T11:52:58.684-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:52:58.684-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:52:58.690-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:52:58.702-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:52:58.701-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T11:52:58.711-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:52:58.710-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T11:52:58.725-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-04-28T11:53:50.151-0400] {processor.py:186} INFO - Started process (PID=35471) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:53:50.153-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T11:53:50.154-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:53:50.154-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:53:50.159-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:53:50.170-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:53:50.170-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T11:53:50.178-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:53:50.178-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T11:53:50.195-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.048 seconds
+[2025-04-28T11:54:45.929-0400] {processor.py:186} INFO - Started process (PID=36041) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:54:45.930-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T11:54:45.931-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:54:45.931-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:54:45.938-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:54:45.951-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:54:45.950-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T11:54:45.961-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:54:45.961-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T11:54:46.062-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.138 seconds
+[2025-04-28T11:55:42.671-0400] {processor.py:186} INFO - Started process (PID=37699) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:55:42.673-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T11:55:42.674-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:55:42.673-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:55:42.679-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:55:42.689-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:55:42.689-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T11:55:42.697-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:55:42.697-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T11:55:42.713-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-04-28T11:56:38.847-0400] {processor.py:186} INFO - Started process (PID=38072) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:56:38.848-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T11:56:38.849-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:56:38.849-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:56:38.859-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:56:38.875-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:56:38.874-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T11:56:38.883-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:56:38.883-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T11:56:38.900-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-04-28T11:57:37.349-0400] {processor.py:186} INFO - Started process (PID=38555) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:57:37.350-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T11:57:37.351-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:57:37.351-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:57:37.357-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:57:37.367-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:57:37.367-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T11:57:37.450-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:57:37.450-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T11:57:37.463-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.119 seconds
+[2025-04-28T11:58:36.609-0400] {processor.py:186} INFO - Started process (PID=39028) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:58:36.619-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T11:58:36.621-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:58:36.620-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:58:36.627-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:58:36.637-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:58:36.637-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T11:58:36.646-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:58:36.646-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T11:58:36.664-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-04-28T11:59:29.724-0400] {processor.py:186} INFO - Started process (PID=39434) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:59:29.725-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T11:59:29.726-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:59:29.725-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:59:29.731-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T11:59:29.742-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:59:29.741-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T11:59:29.750-0400] {logging_mixin.py:190} INFO - [2025-04-28T11:59:29.750-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T11:59:29.764-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-04-28T12:00:21.889-0400] {processor.py:186} INFO - Started process (PID=39690) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:00:21.899-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:00:21.900-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:00:21.900-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:00:21.906-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:00:21.917-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:00:21.917-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:00:21.927-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:00:21.927-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:00:21.946-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2025-04-28T12:01:15.125-0400] {processor.py:186} INFO - Started process (PID=39922) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:01:15.135-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:01:15.136-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:01:15.135-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:01:15.141-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:01:15.153-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:01:15.153-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:01:15.162-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:01:15.162-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:01:15.178-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-04-28T12:02:08.017-0400] {processor.py:186} INFO - Started process (PID=40171) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:02:08.026-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:02:08.027-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:02:08.027-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:02:08.033-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:02:08.043-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:02:08.043-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:02:08.052-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:02:08.052-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:02:08.065-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.053 seconds
+[2025-04-28T12:03:01.251-0400] {processor.py:186} INFO - Started process (PID=40418) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:03:01.261-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:03:01.262-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:03:01.261-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:03:01.267-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:03:01.279-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:03:01.278-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:03:01.287-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:03:01.287-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:03:01.309-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2025-04-28T12:03:55.516-0400] {processor.py:186} INFO - Started process (PID=40695) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:03:55.517-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:03:55.519-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:03:55.518-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:03:55.526-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:03:55.537-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:03:55.537-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:03:55.546-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:03:55.546-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:03:55.563-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.052 seconds
+[2025-04-28T12:04:50.962-0400] {processor.py:186} INFO - Started process (PID=40950) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:04:50.972-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:04:50.973-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:04:50.973-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:04:50.979-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:04:50.992-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:04:50.991-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:04:51.000-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:04:51.000-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:04:51.014-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-04-28T12:05:45.532-0400] {processor.py:186} INFO - Started process (PID=41187) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:05:45.542-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:05:45.543-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:05:45.543-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:05:45.549-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:05:45.561-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:05:45.560-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:05:45.570-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:05:45.570-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:05:45.585-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-04-28T12:06:38.794-0400] {processor.py:186} INFO - Started process (PID=41436) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:06:38.803-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:06:38.804-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:06:38.804-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:06:38.810-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:06:38.823-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:06:38.823-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:06:38.832-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:06:38.832-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:06:38.847-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-04-28T12:07:31.842-0400] {processor.py:186} INFO - Started process (PID=41681) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:07:31.843-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:07:31.844-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:07:31.844-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:07:31.850-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:07:31.861-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:07:31.861-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:07:31.870-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:07:31.870-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:07:31.886-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds
+[2025-04-28T12:08:29.491-0400] {processor.py:186} INFO - Started process (PID=41965) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:08:29.501-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-28T12:08:29.502-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:08:29.502-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:08:29.507-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-28T12:08:29.519-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:08:29.519-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:08:29.527-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:08:29.527-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-28T12:08:29.541-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.054 seconds
