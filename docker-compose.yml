@@ -1,0 +1,27 @@
+services:
+  airflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./.env:/opt/airflow/.env
+      - ./artist_streams.csv:/opt/airflow/artist_streams.csv
+      - ./playlists.csv:/opt/airflow/playlists.csv
+      - ./playlists_tracks_streams.csv:/opt/airflow/playlists_tracks_streams.csv
+      - ./cleaned_artist_streams.csv:/opt/airflow/cleaned_artist_streams  - ./cleaned_playlists.csv:/opt/airflow/cleaned_playlists.csv
+      - ./cleaned_playlists_tracks_streams.csv:/opt/airflow/cleaned_playlists_tracks_streams.csv
+      - ./db:/opt/airflow/db
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/db/airflow.db
+      - AIRFLOW__CORE__FERNET_KEY=Bgx_COo1iOiEt3fZap4gNqyLboMaDte71kNqIO6k0eM=
+      - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/airflow/dags
+    command: >
+      bash -c "airflow db init && \
+               (airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true) && \
+               airflow webserver & airflow scheduler"
+# 9sGN7x0085aE4ijW8liPP616TlNv9vOqye3fIIf5MLo=

@@ -1,0 +1,13 @@
+/.env
+# Ignore virtual environment
+airflow_venv/
+airflow_db/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore __pycache__ folders
+__pycache__/
+
+# Ignore database files
+*.db

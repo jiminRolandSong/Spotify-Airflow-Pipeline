@@ -1,0 +1,4 @@
+pandas==2.2.2
+snowflake-connector-python
+python-dotenv
+spotipy

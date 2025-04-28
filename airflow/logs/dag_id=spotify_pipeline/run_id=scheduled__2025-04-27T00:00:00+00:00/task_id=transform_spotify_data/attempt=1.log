@@ -1,0 +1,51 @@
+[2025-04-28T11:10:38.418-0400] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-28T11:10:38.426-0400] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_pipeline.transform_spotify_data scheduled__2025-04-27T00:00:00+00:00 [queued]>
+[2025-04-28T11:10:38.429-0400] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_pipeline.transform_spotify_data scheduled__2025-04-27T00:00:00+00:00 [queued]>
+[2025-04-28T11:10:38.429-0400] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-04-28T11:10:38.438-0400] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): transform_spotify_data> on 2025-04-27 00:00:00+00:00
+[2025-04-28T11:10:38.441-0400] {standard_task_runner.py:72} INFO - Started process 17983 to run task
+[2025-04-28T11:10:38.445-0400] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'spotify_pipeline', 'transform_spotify_data', 'scheduled__2025-04-27T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/spotify_pipeline.py', '--cfg-path', '/tmp/tmpf66ek_2i']
+[2025-04-28T11:10:38.445-0400] {standard_task_runner.py:105} INFO - Job 4: Subtask transform_spotify_data
+[2025-04-28T11:10:38.487-0400] {task_command.py:467} INFO - Running <TaskInstance: spotify_pipeline.transform_spotify_data scheduled__2025-04-27T00:00:00+00:00 [running]> on host BOOK-NSV5SP728N.
+[2025-04-28T11:10:38.524-0400] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='aanga' AIRFLOW_CTX_DAG_ID='spotify_pipeline' AIRFLOW_CTX_TASK_ID='transform_spotify_data' AIRFLOW_CTX_EXECUTION_DATE='2025-04-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-27T00:00:00+00:00'
+[2025-04-28T11:10:38.526-0400] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-28T11:10:38.526-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-28T11:10:38.526-0400] {logging_mixin.py:190} INFO - Current task name:transform_spotify_data state:running start_date:2025-04-28 15:10:38.426346+00:00
+[2025-04-28T11:10:38.526-0400] {logging_mixin.py:190} INFO - Dag name:spotify_pipeline and current dag run status:running
+[2025-04-28T11:10:38.527-0400] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-28T11:10:38.546-0400] {logging_mixin.py:190} INFO - Cleaned Artist Streams:
+[2025-04-28T11:10:38.560-0400] {logging_mixin.py:190} INFO -                 artist_id  ...         processed_at
+0  5Z71xE9prhpHrqL5thVMyK  ...  2025-04-28 11:10:38
+1  5Z71xE9prhpHrqL5thVMyK  ...  2025-04-28 11:10:38
+2  5Z71xE9prhpHrqL5thVMyK  ...  2025-04-28 11:10:38
+3  5Z71xE9prhpHrqL5thVMyK  ...  2025-04-28 11:10:38
+4  5Z71xE9prhpHrqL5thVMyK  ...  2025-04-28 11:10:38
+
+[5 rows x 12 columns]
+[2025-04-28T11:10:38.563-0400] {logging_mixin.py:190} INFO - 
+Cleaned Playlists:
+[2025-04-28T11:10:38.566-0400] {logging_mixin.py:190} INFO -               playlist_id  ...         processed_at
+0  7vhaamErffNetyvUgueBs3  ...  2025-04-28 11:10:38
+1  2wazkzhuzpipWcVKjOa7Vg  ...  2025-04-28 11:10:38
+
+[2 rows x 7 columns]
+[2025-04-28T11:10:38.571-0400] {logging_mixin.py:190} INFO - 
+Cleaned Playlist Tracks Streams:
+[2025-04-28T11:10:38.576-0400] {logging_mixin.py:190} INFO -               playlist_id  ...         processed_at
+0  7vhaamErffNetyvUgueBs3  ...  2025-04-28 11:10:38
+1  7vhaamErffNetyvUgueBs3  ...  2025-04-28 11:10:38
+2  7vhaamErffNetyvUgueBs3  ...  2025-04-28 11:10:38
+3  7vhaamErffNetyvUgueBs3  ...  2025-04-28 11:10:38
+4  7vhaamErffNetyvUgueBs3  ...  2025-04-28 11:10:38
+
+[5 rows x 10 columns]
+[2025-04-28T11:10:38.576-0400] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-28T11:10:38.579-0400] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-28T11:10:38.579-0400] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=spotify_pipeline, task_id=transform_spotify_data, run_id=scheduled__2025-04-27T00:00:00+00:00, execution_date=20250427T000000, start_date=20250428T151038, end_date=20250428T151038
+[2025-04-28T11:10:38.594-0400] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-28T11:10:38.594-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-28T11:10:38.594-0400] {logging_mixin.py:190} INFO - Dag name:spotify_pipeline queued_at:2025-04-28 15:10:30.403229+00:00
+[2025-04-28T11:10:38.594-0400] {logging_mixin.py:190} INFO - Task hostname:BOOK-NSV5SP728N. operator:PythonOperator
+[2025-04-28T11:10:38.622-0400] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-28T11:10:38.631-0400] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-28T11:10:38.635-0400] {local_task_job_runner.py:245} INFO - ::endgroup::
