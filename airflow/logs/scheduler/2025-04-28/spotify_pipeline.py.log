@@ -709,3 +709,163 @@ ModuleNotFoundError: No module named 'spotipy'
 [2025-04-28T12:09:08.395-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:09:08.394-0400] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-28T12:09:08.405-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:09:08.405-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
 [2025-04-28T12:09:08.418-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.589 seconds
+[2025-04-28T12:36:38.729-0400] {processor.py:186} INFO - Started process (PID=46523) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:36:38.730-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:36:38.732-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:36:38.732-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:36:38.998-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:36:39.004-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:36:39.023-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:36:39.023-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:36:39.038-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:36:39.038-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:36:39.052-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.329 seconds
+[2025-04-28T12:37:49.972-0400] {processor.py:186} INFO - Started process (PID=47246) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:37:49.973-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:37:49.975-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:37:49.974-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:37:50.131-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:37:50.133-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:37:50.145-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:37:50.145-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:37:50.160-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:37:50.160-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:37:50.176-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.208 seconds
+[2025-04-28T12:38:41.300-0400] {processor.py:186} INFO - Started process (PID=47756) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:38:41.301-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:38:41.303-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:38:41.302-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:38:41.457-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:38:41.458-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:38:41.471-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:38:41.471-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:38:41.485-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:38:41.485-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:38:41.499-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.203 seconds
+[2025-04-28T12:39:32.516-0400] {processor.py:186} INFO - Started process (PID=48373) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:39:32.518-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:39:32.520-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:39:32.520-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:39:32.677-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:39:32.679-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:39:32.691-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:39:32.691-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:39:32.706-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:39:32.706-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:39:32.720-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.208 seconds
+[2025-04-28T12:40:15.629-0400] {processor.py:186} INFO - Started process (PID=49017) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:40:15.631-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:40:15.632-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:40:15.632-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:40:15.794-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:40:15.796-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:40:15.807-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:40:15.807-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:40:15.822-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:40:15.821-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:40:15.839-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.215 seconds
+[2025-04-28T12:40:55.584-0400] {processor.py:186} INFO - Started process (PID=49216) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:40:55.585-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:40:55.587-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:40:55.587-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:40:55.766-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:40:55.769-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:40:55.784-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:40:55.784-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:40:55.807-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:40:55.807-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:40:55.823-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.243 seconds
+[2025-04-28T12:41:47.794-0400] {processor.py:186} INFO - Started process (PID=49542) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:41:47.796-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:41:47.798-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:41:47.798-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:41:47.951-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:41:47.953-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:41:47.966-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:41:47.966-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:41:47.981-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:41:47.980-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:41:47.996-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.206 seconds
+[2025-04-28T12:42:36.679-0400] {processor.py:186} INFO - Started process (PID=49812) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:42:36.680-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:42:36.682-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:42:36.681-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:42:36.829-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:42:36.830-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:42:36.841-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:42:36.841-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:42:36.855-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:42:36.854-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:42:36.867-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.191 seconds
+[2025-04-28T12:43:31.255-0400] {processor.py:186} INFO - Started process (PID=50219) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:43:31.256-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:43:31.258-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:43:31.257-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:43:31.418-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:43:31.420-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:43:31.433-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:43:31.431-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:43:31.447-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:43:31.447-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:43:31.463-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.212 seconds
+[2025-04-28T12:44:24.286-0400] {processor.py:186} INFO - Started process (PID=50489) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:44:24.288-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:44:24.289-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:44:24.289-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:44:24.443-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:44:24.444-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:44:24.457-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:44:24.456-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:44:24.472-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:44:24.471-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:44:24.487-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.204 seconds
+[2025-04-28T12:45:12.576-0400] {processor.py:186} INFO - Started process (PID=50994) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:45:12.578-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:45:12.579-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:45:12.579-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:45:12.750-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:45:12.751-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:45:12.762-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:45:12.762-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:45:12.775-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:45:12.775-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:45:12.790-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.217 seconds
+[2025-04-28T12:46:04.910-0400] {processor.py:186} INFO - Started process (PID=51581) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:46:04.911-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:46:04.912-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:46:04.912-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:46:05.075-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:46:05.076-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:46:05.089-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:46:05.088-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:46:05.103-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:46:05.103-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:46:05.118-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.212 seconds
+[2025-04-28T12:46:41.455-0400] {processor.py:186} INFO - Started process (PID=51846) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:46:41.456-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:46:41.458-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:46:41.458-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:46:41.618-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:46:41.621-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:46:41.638-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:46:41.638-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:46:41.653-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:46:41.653-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:46:41.667-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.215 seconds
+[2025-04-28T12:47:36.737-0400] {processor.py:186} INFO - Started process (PID=52180) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:47:36.739-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:47:36.740-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:47:36.740-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:47:36.905-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:47:36.906-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:47:36.917-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:47:36.917-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:47:36.930-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:47:36.930-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:47:36.943-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.210 seconds
+[2025-04-28T12:48:29.535-0400] {processor.py:186} INFO - Started process (PID=52434) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:48:29.544-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:48:29.546-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:48:29.546-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:48:29.705-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:48:29.706-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:48:29.720-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:48:29.719-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:48:29.734-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:48:29.734-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:48:29.749-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.218 seconds
+[2025-04-28T12:49:17.861-0400] {processor.py:186} INFO - Started process (PID=52867) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:49:17.863-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:49:17.865-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:49:17.864-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:49:18.024-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:49:18.026-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:49:18.036-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:49:18.036-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:49:18.049-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:49:18.049-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:49:18.062-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.205 seconds
+[2025-04-28T12:49:26.543-0400] {processor.py:186} INFO - Started process (PID=52976) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:49:26.544-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:49:26.546-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:49:26.545-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:49:26.729-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:49:26.733-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:49:26.749-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:49:26.749-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:49:26.764-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:49:26.764-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:49:26.779-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.241 seconds
+[2025-04-28T12:50:10.741-0400] {processor.py:186} INFO - Started process (PID=53311) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:50:10.743-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:50:10.744-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:50:10.744-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:50:10.899-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:50:10.900-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:50:10.913-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:50:10.913-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:50:10.929-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:50:10.929-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:50:10.944-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.207 seconds
+[2025-04-28T12:50:21.841-0400] {processor.py:186} INFO - Started process (PID=53464) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:50:21.843-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:50:21.845-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:50:21.845-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:50:22.004-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:50:22.005-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:50:22.017-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:50:22.016-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:50:22.031-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:50:22.031-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:50:22.046-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.209 seconds
+[2025-04-28T12:50:56.011-0400] {processor.py:186} INFO - Started process (PID=53768) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:50:56.012-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-04-28T12:50:56.014-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:50:56.014-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:50:56.172-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-04-28T12:50:56.175-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-04-28T12:50:56.192-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:50:56.191-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T12:50:56.205-0400] {logging_mixin.py:190} INFO - [2025-04-28T12:50:56.205-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T12:50:56.218-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.211 seconds
