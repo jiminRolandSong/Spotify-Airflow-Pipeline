@@ -8,6 +8,12 @@ from datetime import datetime
 
 load_dotenv()
 
+BASE_DIR = "/home/aangava/MSP/airflow"
+
+print(f"[DEBUG] BASE_DIR is: {BASE_DIR}")
+print(f"[DEBUG] Reading file: {os.path.join(BASE_DIR, 'cleaned_artist_streams.csv')}")
+
+
 conn_params = {
     "account": os.getenv("SNOWFLAKE_ACCOUNT"),
     "user": os.getenv("SNOWFLAKE_USER"),
@@ -121,6 +127,7 @@ def load_csv_to_snowflake(conn, csv_path, table_name):
         
         df.columns = [col.upper() for col in df.columns]
         
+        
         success, nchunks, nrows, _ = write_pandas(conn=conn,
         df=df,
         table_name=table_name,
@@ -143,9 +150,9 @@ def main():
         
         create_tables(conn)
         
-        load_csv_to_snowflake(conn, 'cleaned_artist_streams.csv', 'ARTIST_STREAMS')
-        load_csv_to_snowflake(conn, 'cleaned_playlists.csv', 'PLAYLISTS')
-        load_csv_to_snowflake(conn, 'cleaned_playlists_tracks_streams.csv', 'PLAYLIST_STREAMS')
+        load_csv_to_snowflake(conn, os.path.join(BASE_DIR, 'cleaned_artist_streams.csv'), 'ARTIST_STREAMS')
+        load_csv_to_snowflake(conn, os.path.join(BASE_DIR, 'cleaned_playlists.csv'), 'PLAYLISTS')
+        load_csv_to_snowflake(conn, os.path.join(BASE_DIR, 'cleaned_playlists_tracks_streams.csv'), 'PLAYLIST_STREAMS')
         
         cursor = conn.cursor()
         for table in ['artist_streams', 'playlists', 'playlist_streams']:

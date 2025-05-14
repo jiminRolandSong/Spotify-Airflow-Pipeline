@@ -1,0 +1,66 @@
+[2025-05-14T14:07:53.777-0400] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-14T14:07:53.785-0400] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_pipeline.load_to_snowflake manual__2025-05-14T17:14:19.373446+00:00 [queued]>
+[2025-05-14T14:07:53.790-0400] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_pipeline.load_to_snowflake manual__2025-05-14T17:14:19.373446+00:00 [queued]>
+[2025-05-14T14:07:53.791-0400] {taskinstance.py:2867} INFO - Starting attempt 2 of 3
+[2025-05-14T14:07:53.800-0400] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): load_to_snowflake> on 2025-05-14 17:14:19.373446+00:00
+[2025-05-14T14:07:53.808-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=26720) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-14T14:07:53.809-0400] {standard_task_runner.py:72} INFO - Started process 26754 to run task
+[2025-05-14T14:07:53.808-0400] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'spotify_pipeline', 'load_to_snowflake', 'manual__2025-05-14T17:14:19.373446+00:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/spotify_pipeline.py', '--cfg-path', '/tmp/tmp97qf1rmr']
+[2025-05-14T14:07:53.809-0400] {standard_task_runner.py:105} INFO - Job 97: Subtask load_to_snowflake
+[2025-05-14T14:07:53.844-0400] {task_command.py:467} INFO - Running <TaskInstance: spotify_pipeline.load_to_snowflake manual__2025-05-14T17:14:19.373446+00:00 [running]> on host BOOK-NSV5SP728N.
+[2025-05-14T14:07:53.886-0400] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='aanga' AIRFLOW_CTX_DAG_ID='spotify_pipeline' AIRFLOW_CTX_TASK_ID='load_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-05-14T17:14:19.373446+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-14T17:14:19.373446+00:00'
+[2025-05-14T14:07:53.887-0400] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-14T14:07:53.888-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-14T14:07:53.888-0400] {logging_mixin.py:190} INFO - Current task name:load_to_snowflake state:running start_date:2025-05-14 18:07:53.786098+00:00
+[2025-05-14T14:07:53.888-0400] {logging_mixin.py:190} INFO - Dag name:spotify_pipeline and current dag run status:running
+[2025-05-14T14:07:53.888-0400] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-14T14:07:53.889-0400] {logging_mixin.py:190} INFO - 2.2.3
+[2025-05-14T14:07:53.896-0400] {logging_mixin.py:190} INFO -    test
+0     1
+1     2
+2     3
+[2025-05-14T14:07:53.897-0400] {connection.py:477} INFO - Snowflake Connector for Python Version: 3.14.1, Python Version: 3.12.3, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[2025-05-14T14:07:53.898-0400] {connection.py:1400} INFO - Connecting to GLOBAL Snowflake domain
+[2025-05-14T14:07:54.387-0400] {logging_mixin.py:190} INFO - Connected to Snowflake successfully.
+[2025-05-14T14:07:54.500-0400] {logging_mixin.py:190} INFO - Query executed
+[2025-05-14T14:07:54.609-0400] {logging_mixin.py:190} INFO - Query executed
+[2025-05-14T14:07:54.707-0400] {logging_mixin.py:190} INFO - Query executed
+[2025-05-14T14:07:54.808-0400] {logging_mixin.py:190} INFO - Query executed
+[2025-05-14T14:07:55.083-0400] {logging_mixin.py:190} INFO - Query executed
+[2025-05-14T14:07:55.222-0400] {logging_mixin.py:190} INFO - Query executed
+[2025-05-14T14:07:55.330-0400] {logging_mixin.py:190} INFO - Query executed
+[2025-05-14T14:07:57.259-0400] {logging_mixin.py:190} INFO - Loaded 20 rows into ARTIST_STREAMS successfully.
+[2025-05-14T14:07:58.892-0400] {logging_mixin.py:190} INFO - Loaded 2 rows into PLAYLISTS successfully.
+[2025-05-14T14:08:00.258-0400] {logging_mixin.py:190} INFO - Loaded 117 rows into PLAYLIST_STREAMS successfully.
+[2025-05-14T14:08:00.390-0400] {logging_mixin.py:190} INFO - 
+Sample from artist_streams:
+[2025-05-14T14:08:00.391-0400] {logging_mixin.py:190} INFO - ('5Z71xE9prhpHrqL5thVMyK', 'tripleS', 'Girls Never Die', 67, '<ASSEMBLE24>', 563520, '[\n  "[\'k-pop\']"\n]', '2025-04-16', 'High', True, False, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.391-0400] {logging_mixin.py:190} INFO - ('5Z71xE9prhpHrqL5thVMyK', 'tripleS', 'Generation', 58, 'Acid Angel from Asia <ACCESS>', 563520, '[\n  "[\'k-pop\']"\n]', '2025-04-16', 'Medium', True, False, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.391-0400] {logging_mixin.py:190} INFO - ('5Z71xE9prhpHrqL5thVMyK', 'tripleS', 'Rising', 58, 'ASSEMBLE', 563520, '[\n  "[\'k-pop\']"\n]', '2025-04-16', 'Medium', True, False, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.392-0400] {logging_mixin.py:190} INFO - ('5Z71xE9prhpHrqL5thVMyK', 'tripleS', "Girls' Capitalism", 56, 'LOVElution <ↀ>', 563520, '[\n  "[\'k-pop\']"\n]', '2025-04-16', 'Medium', True, False, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.392-0400] {logging_mixin.py:190} INFO - ('5Z71xE9prhpHrqL5thVMyK', 'tripleS', 'Hit the Floor', 52, 'Visionary Vision <Performante>', 563520, '[\n  "[\'k-pop\']"\n]', '2025-04-16', 'Medium', True, False, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.594-0400] {logging_mixin.py:190} INFO - 
+Sample from playlists:
+[2025-05-14T14:08:00.594-0400] {logging_mixin.py:190} INFO - ('7vhaamErffNetyvUgueBs3', 'Jimin Painkillers 2025', '316ehswh4ltlx4zkzncp7mnelpei', 1, 41, '2025-04-16', '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.595-0400] {logging_mixin.py:190} INFO - ('2wazkzhuzpipWcVKjOa7Vg', 'Jimin Spring 2025 Bangers', '316ehswh4ltlx4zkzncp7mnelpei', 1, 76, '2025-04-16', '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.595-0400] {logging_mixin.py:190} INFO - ('7vhaamErffNetyvUgueBs3', 'Jimin Painkillers 2025', '316ehswh4ltlx4zkzncp7mnelpei', 1, 44, '2025-04-19', '2025-04-19 17:55:25')
+[2025-05-14T14:08:00.595-0400] {logging_mixin.py:190} INFO - ('2wazkzhuzpipWcVKjOa7Vg', 'Jimin Spring 2025 Bangers', '316ehswh4ltlx4zkzncp7mnelpei', 1, 93, '2025-04-19', '2025-04-19 17:55:25')
+[2025-05-14T14:08:00.595-0400] {logging_mixin.py:190} INFO - ('7vhaamErffNetyvUgueBs3', 'Jimin Painkillers 2025', '316ehswh4ltlx4zkzncp7mnelpei', 1, 44, '2025-04-28', '2025-04-28 09:36:55')
+[2025-05-14T14:08:00.846-0400] {logging_mixin.py:190} INFO - 
+Sample from playlist_streams:
+[2025-05-14T14:08:00.847-0400] {logging_mixin.py:190} INFO - ('7vhaamErffNetyvUgueBs3', '2BBIUV8wIBbqc7HXObzdgH', '愛♡スクリ～ム！', 'AiScReam', 68, '愛♡スクリ～ム！', 262105, '2025-04-16', 4.37, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.847-0400] {logging_mixin.py:190} INFO - ('7vhaamErffNetyvUgueBs3', '5Trv9lL1lhLOqHuuG9QpyV', 'E Jan', 'M!LK', 32, 'E Jan', 198440, '2025-04-16', 3.31, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.847-0400] {logging_mixin.py:190} INFO - ('7vhaamErffNetyvUgueBs3', '3KtwMkj9gml6BDeYlyS8nG', 'かわいいだけじゃだめですか？', 'CUTIE STREET', 74, 'かわいいだけじゃだめですか？', 251173, '2025-04-16', 4.19, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.847-0400] {logging_mixin.py:190} INFO - ('7vhaamErffNetyvUgueBs3', '2LHNTC9QZxsL3nWpt8iaSR', 'Abracadabra', 'Lady Gaga', 88, 'MAYHEM', 223398, '2025-04-16', 3.72, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.847-0400] {logging_mixin.py:190} INFO - ('7vhaamErffNetyvUgueBs3', '1SdQjKRW52cHg2SEesQLvH', 'Physical (feat. Troye Sivan)', 'Dua Lipa', 77, 'Physical (feat. Troye Sivan)', 192799, '2025-04-16', 3.21, '2025-04-16 15:49:05')
+[2025-05-14T14:08:00.942-0400] {logging_mixin.py:190} INFO - Snowflake connection closed.
+[2025-05-14T14:08:00.943-0400] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-14T14:08:00.948-0400] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-14T14:08:00.949-0400] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=spotify_pipeline, task_id=load_to_snowflake, run_id=manual__2025-05-14T17:14:19.373446+00:00, execution_date=20250514T171419, start_date=20250514T180753, end_date=20250514T180800
+[2025-05-14T14:08:00.971-0400] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-14T14:08:00.972-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-14T14:08:00.972-0400] {logging_mixin.py:190} INFO - Dag name:spotify_pipeline queued_at:2025-05-14 18:04:29.967971+00:00
+[2025-05-14T14:08:00.972-0400] {logging_mixin.py:190} INFO - Task hostname:BOOK-NSV5SP728N. operator:PythonOperator
+[2025-05-14T14:08:01.016-0400] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-14T14:08:01.025-0400] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-14T14:08:01.025-0400] {local_task_job_runner.py:245} INFO - ::endgroup::

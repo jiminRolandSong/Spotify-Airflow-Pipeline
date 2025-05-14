@@ -71,33 +71,28 @@ def clean_tracks_data(df):
 
 
 def main():
+    base_path = os.getenv("AIRFLOW_HOME", os.getcwd())
+
     # CLEAN ARTISTS DATA
-    artist_streams_df = pd.read_csv('artist_streams.csv')
-
+    artist_streams_df = pd.read_csv(os.path.join(base_path, 'artist_streams.csv'))
     artist_streams_df = clean_artist_data(artist_streams_df)
-
-    artist_streams_df.to_csv('cleaned_artist_streams.csv', index=False)
+    artist_streams_df.to_csv(os.path.join(base_path, 'cleaned_artist_streams.csv'), index=False)
 
     print("Cleaned Artist Streams:")
     print(artist_streams_df.head())
 
     # CLEAN PLAYLIST DATA
-    playlists_df = pd.read_csv('playlists.csv')
-
+    playlists_df = pd.read_csv(os.path.join(base_path, 'playlists.csv'))
     playlists_df = clean_playlists_data(playlists_df)
-
-    playlists_df.to_csv('cleaned_playlists.csv', index=False)
+    playlists_df.to_csv(os.path.join(base_path, 'cleaned_playlists.csv'), index=False)
 
     print("\nCleaned Playlists:")
     print(playlists_df.head())
 
-    # CLEAN PLAYLISTS' TRACKS
-
-    playlist_tracks_df = pd.read_csv('playlists_tracks_streams.csv')
-
+    # CLEAN PLAYLIST TRACKS
+    playlist_tracks_df = pd.read_csv(os.path.join(base_path, 'playlists_tracks_streams.csv'))
     playlist_tracks_df = clean_tracks_data(playlist_tracks_df)
-
-    playlist_tracks_df.to_csv('cleaned_playlists_tracks_streams.csv', index=False)
+    playlist_tracks_df.to_csv(os.path.join(base_path, 'cleaned_playlists_tracks_streams.csv'), index=False)
 
     print("\nCleaned Playlist Tracks Streams:")
     print(playlist_tracks_df.head())

@@ -5,6 +5,8 @@ import sys
 import os
 
 sys.path.append('/home/aangava/MSP/scripts')
+os.environ["AIRFLOW_HOME"] = "/home/aangava/MSP/airflow"
+os.chdir('/home/aangava/MSP')
 
 try:
     from extract_spotify import main as extract_main

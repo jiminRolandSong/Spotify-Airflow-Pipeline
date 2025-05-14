@@ -99,6 +99,8 @@ except Exception as e:
     exit(1)
 
 def main():
+    
+    base_path = os.getenv("AIRFLOW_HOME", os.getcwd())
     # TEST ARTIST STREAMS
 
     # TripleS, Cutie Sweet
@@ -109,7 +111,8 @@ def main():
     if artist_streams_df.empty:
         print("No artist data extracted. Check artist IDs or Spotify API.")
     else:
-        artist_streams_df.to_csv('artist_streams.csv', index=False)
+        #artist_streams_df.to_csv('artist_streams.csv', index=False)
+        artist_streams_df.to_csv(os.path.join(base_path, "artist_streams.csv"), index=False)
         print("Artist Streams DataFrame:")
         print(artist_streams_df.head())
 
@@ -123,15 +126,24 @@ def main():
     if playlists_df.empty:
         print("No playlist metadata extracted.")
     else:
-        playlists_df.to_csv('playlists.csv', index=False)
+        #playlists_df.to_csv('playlists.csv', index=False)
+        playlists_df.to_csv(os.path.join(base_path, "playlists.csv"), index=False)
         print("Playlists DataFrame:")
         print(playlists_df.head())
         
     if playlists_tracks_streams_df.empty:
         print("No playlist tracks extracted.")
     else:
-        playlists_tracks_streams_df.to_csv('playlists_tracks_streams.csv', index=False)
+        #playlists_tracks_streams_df.to_csv('playlists_tracks_streams.csv', index=False)
+        playlists_tracks_streams_df.to_csv(os.path.join(base_path, "playlists_tracks_streams.csv"), index=False)
         print("Playlists Tracks Streams DataFrame:")
         print(playlists_tracks_streams_df.head())
+    
+    
+
+    
+    
+    
+
 if __name__ == "__main__":
     main()  
