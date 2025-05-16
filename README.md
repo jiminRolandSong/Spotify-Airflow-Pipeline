@@ -1,105 +1,139 @@
-# Spotify ETL Pipeline with Apache Airflow
+# 🎧 Spotify ETL Pipeline with Airflow + Snowflake + Django REST API
 
-This project builds a full ETL (Extract, Transform, Load) pipeline using Apache Airflow to process Spotify data and load it into a Snowflake database.
-
----
-
-## Technologies Used
-- **Apache Airflow**: Workflow orchestration
-- **Pandas**: Data cleaning and transformation
-- **Snowflake**: Cloud data warehouse
-- **Python**: ETL scripting
-- **Ubuntu WSL2**: Development environment
-- **Git & GitHub**: Version control and repository hosting
+This project automates the extraction, transformation, and loading (ETL) of Spotify streaming data using Apache Airflow and stores the results in Snowflake. A Django REST API is provided to access and visualize the latest artist and playlist data.
 
 ---
 
-## Setup Instructions
+## 🚀 Features
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/jiminRolandSong/Spotify-Airflow-Pipeline.git
-cd Spotify-Airflow-Pipeline
-```
+- **ETL Workflow with Airflow**
+  - Extracts artist and playlist data from Spotify using the Spotify API.
+  - Cleans and transforms the data with `pandas`.
+  - Loads transformed data into Snowflake tables (`artist_streams`, `playlists`, `playlist_streams`).
 
-2. **Create and activate a virtual environment**
-```bash
+- **Cloud Data Warehouse**
+  - Structured data is stored in **Snowflake** for scalability and analytical querying.
+
+- **Django Dashboard**
+  - Django REST API (`spotify_api`) exposes endpoints to access streaming data.
+  - Built-in SQLite used for development (Django side), but Snowflake powers the core data source.
+
+---
+
+## 📁 Folder Structure
+
+\`\`\`
+MSP/
+├── airflow/                # Airflow DAGs and final cleaned CSV files
+│   ├── dags/
+│   ├── logs/
+│   ├── airflow.cfg
+│   ├── airflow.db
+│   └── cleaned_*.csv
+│
+├── dashboard/              # Django project for API dashboard
+│   ├── dashboard/          # Django project settings and root URLs
+│   ├── dashboard_venv/     # Virtual environment (should be gitignored)
+│   └── spotify_api/        # App exposing Spotify data via REST API
+│
+├── scripts/                # ETL scripts (called by Airflow)
+│   ├── extract_spotify.py
+│   ├── transform_spotify.py
+│   └── load_spotify.py
+│
+├── db.sqlite3              # Local SQLite DB for Django (for development)
+├── manage.py               # Django entrypoint
+│
+├── .env                    # Environment variables for Snowflake, Spotify
+├── .gitignore              # Git ignore list
+├── README.md               # You're reading it!
+├── requirements.txt        # Project dependencies
+├── start_airflow.sh        # Launch Airflow (scheduler + webserver)
+└── stop_airflow.sh         # Shutdown Airflow
+\`\`\`
+
+---
+
+## ⚙️ How to Run
+
+### 1. Environment Setup
+
+\`\`\`bash
+# (Recommended) Create virtual environments
 python3 -m venv airflow_venv
 source airflow_venv/bin/activate
-```
 
-3. **Install dependencies**
-```bash
+# Install dependencies
 pip install -r requirements.txt
-```
+\`\`\`
 
-4. **Set up Airflow home**
-```bash
-export AIRFLOW_HOME=~/MSP/airflow
-```
+### 2. Configure Environment Variables
 
-5. **Initialize Airflow database**
-```bash
-airflow db migrate
-```
+Create a `.env` file in the root directory with the following:
 
-6. **Create Airflow user** (only first time)
-```bash
-airflow users create \
-    --username admin \
-    --firstname FIRST \
-    --lastname LAST \
-    --role Admin \
-    --email admin@example.com
-```
+\`\`\`ini
+# Spotify API
+client_id=YOUR_SPOTIFY_CLIENT_ID
+client_secret=YOUR_SPOTIFY_CLIENT_SECRET
 
-7. **Start Airflow services**
-```bash
+# Snowflake credentials
+SNOWFLAKE_ACCOUNT=...
+SNOWFLAKE_USER=...
+SNOWFLAKE_PASSWORD=...
+SNOWFLAKE_ROLE=...
+SNOWFLAKE_WAREHOUSE=...
+SNOWFLAKE_DATABASE=...
+SNOWFLAKE_SCHEMA=...
+\`\`\`
+
+### 3. Run Airflow ETL
+
+\`\`\`bash
 ./start_airflow.sh
-```
+\`\`\`
 
-8. **Access Airflow UI**
-- Navigate to: [http://localhost:8081](http://localhost:8081)
+Access Airflow UI: [http://localhost:8081](http://localhost:8081)  
+Trigger the DAG: \`spotify_pipeline\`
 
-9. **Trigger the DAG**
-- Find `spotify_pipeline` in the Airflow UI and trigger it manually.
+### 4. Run Django API
 
----
+\`\`\`bash
+cd dashboard
+source dashboard_venv/bin/activate
+python manage.py runserver
+\`\`\`
 
-## Folder Structure
-
-```
-Spotify-Airflow-Pipeline/
-|├── airflow/            # Airflow home directory
-|├── airflow_venv/        # Python virtual environment
-|├── db/                 # Database-related files (airflow.db)
-|├── scripts/            # Python ETL scripts (extract, transform, load)
-|├── cleaned_*.csv       # Cleaned datasets for Snowflake
-|├── Dockerfile, docker-compose.yml  # (optional) For containerization
-|└── README.md
-```
+API is now available at: \`http://127.0.0.1:8000/api/artist-streams/\`
 
 ---
 
-## Main Flow
+## 📡 API Endpoints
 
-1. **Extract**: Pull raw data from Spotify API
-2. **Transform**: Clean and reformat the data using Pandas
-3. **Load**: Upload the cleaned data into Snowflake tables
-
----
-
-## What's Next
-- Build a Django backend to visualize ETL pipeline results
-- Add real-time data updates
-- Deploy Airflow and Django on AWS or GCP
+| Endpoint                         | Description                       |
+|----------------------------------|-----------------------------------|
+| \`/api/artist-streams/\`          | Returns latest artist stream data |
+| \`/api/playlists/\`               | (Planned) Playlist metadata       |
+| \`/api/playlist-streams/\`        | (Planned) Playlist track streams  |
 
 ---
 
+## ✅ Example Use Cases
 
-## Quick Start Command
+- Analyze artist popularity trends using Spotify’s top track metrics.
+- Monitor playlists performance (follower count, top tracks).
+- Build a data dashboard powered by Snowflake and Django REST Framework.
+- Extendable for frontend dashboards (e.g., React, Chart.js).
 
-```bash
-source airflow_venv/bin/activate
-./start_airflow.sh
-```🎶
+---
+
+## 🧠 Future Work
+
+- Add more API endpoints (e.g., by genre, popularity ranges).
+- Connect to BI tools like Tableau or Superset via Snowflake.
+- Add visual dashboard with Django templates or frontend framework.
+
+---
+
+## 👤 Author
+
+Made with 💚 by [Jimin Song](https://github.com/jiminRolandSong)

@@ -98,3 +98,13 @@
 [2025-05-16T16:14:57.210-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:14:57.209-0400] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-16T16:14:57.224-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:14:57.224-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
 [2025-05-16T16:14:57.241-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.219 seconds
+[2025-05-16T16:15:51.181-0400] {processor.py:186} INFO - Started process (PID=96622) to work on /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-05-16T16:15:51.190-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow/dags/spotify_pipeline.py for tasks to queue
+[2025-05-16T16:15:51.192-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:51.192-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-05-16T16:15:51.360-0400] {logging_mixin.py:190} INFO - [DEBUG] BASE_DIR is: /home/aangava/MSP/airflow
+[2025-05-16T16:15:51.360-0400] {logging_mixin.py:190} INFO - [DEBUG] Reading file: /home/aangava/MSP/airflow/cleaned_artist_streams.csv
+[2025-05-16T16:15:51.366-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (20.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-05-16T16:15:51.368-0400] {processor.py:925} INFO - DAG(s) 'spotify_pipeline' retrieved from /home/aangava/MSP/airflow/dags/spotify_pipeline.py
+[2025-05-16T16:15:51.381-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:51.379-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:15:51.395-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:51.395-0400] {dag.py:4180} INFO - Setting next_dagrun for spotify_pipeline to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-16T16:15:51.410-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow/dags/spotify_pipeline.py took 0.234 seconds

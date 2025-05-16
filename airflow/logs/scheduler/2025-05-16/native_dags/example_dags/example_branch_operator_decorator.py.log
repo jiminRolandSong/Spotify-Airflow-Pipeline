@@ -43,3 +43,8 @@
 [2025-05-16T16:15:14.922-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:14.922-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2025-05-16T16:15:14.951-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2025-05-16T16:15:14.961-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.055 seconds
+[2025-05-16T16:16:09.051-0400] {processor.py:186} INFO - Started process (PID=100970) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-05-16T16:16:09.052-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2025-05-16T16:16:09.054-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:16:09.054-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-05-16T16:16:09.087-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-05-16T16:16:09.094-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.047 seconds

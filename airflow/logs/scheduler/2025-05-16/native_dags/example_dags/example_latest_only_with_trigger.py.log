@@ -68,3 +68,10 @@
 [2025-05-16T16:15:03.533-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:03.533-0400] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-16T16:15:03.547-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:03.547-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-05-16 16:00:00+00:00, run_after=2025-05-16 20:00:00+00:00
 [2025-05-16T16:15:03.561-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.062 seconds
+[2025-05-16T16:15:57.789-0400] {processor.py:186} INFO - Started process (PID=96866) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-05-16T16:15:57.791-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-05-16T16:15:57.793-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:57.792-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-05-16T16:15:57.800-0400] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-05-16T16:15:57.813-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:57.813-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:15:57.827-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:57.827-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-05-16 16:00:00+00:00, run_after=2025-05-16 20:00:00+00:00
+[2025-05-16T16:15:57.842-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.059 seconds
