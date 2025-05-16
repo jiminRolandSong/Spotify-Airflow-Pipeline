@@ -26,3 +26,45 @@
 [2025-05-16T13:04:42.448-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:42.448-0400] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-16T13:04:42.456-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:42.456-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2025-05-16T13:04:42.468-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2025-05-16T16:10:34.349-0400] {processor.py:186} INFO - Started process (PID=95099) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:10:34.351-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-05-16T16:10:34.352-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:10:34.352-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:10:34.361-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:10:34.385-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:10:34.385-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:10:34.394-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:10:34.394-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-05-16T16:10:34.422-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.076 seconds
+[2025-05-16T16:11:29.809-0400] {processor.py:186} INFO - Started process (PID=95376) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:11:29.810-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-05-16T16:11:29.812-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:11:29.812-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:11:29.822-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:11:29.837-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:11:29.837-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:11:29.846-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:11:29.845-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-05-16T16:11:29.860-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2025-05-16T16:12:22.628-0400] {processor.py:186} INFO - Started process (PID=95587) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:12:22.637-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-05-16T16:12:22.639-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:12:22.639-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:12:22.648-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:12:22.663-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:12:22.663-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:12:22.671-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:12:22.671-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-05-16T16:12:22.686-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2025-05-16T16:13:16.856-0400] {processor.py:186} INFO - Started process (PID=95801) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:13:16.866-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-05-16T16:13:16.867-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:13:16.867-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:13:16.874-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:13:16.889-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:13:16.889-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:13:16.896-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:13:16.896-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-05-16T16:13:16.909-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.057 seconds
+[2025-05-16T16:14:11.708-0400] {processor.py:186} INFO - Started process (PID=96022) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:14:11.709-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-05-16T16:14:11.710-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:14:11.710-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:14:11.717-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:14:11.732-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:14:11.731-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:14:11.741-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:14:11.741-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-05-16T16:14:11.755-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.050 seconds
+[2025-05-16T16:15:05.764-0400] {processor.py:186} INFO - Started process (PID=96255) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:15:05.765-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-05-16T16:15:05.767-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:05.766-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:15:05.775-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-05-16T16:15:05.789-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:05.789-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:15:05.797-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:15:05.797-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-05-16T16:15:05.811-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.051 seconds

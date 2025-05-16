@@ -19,3 +19,38 @@
 [2025-05-16T13:04:48.288-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:48.288-0400] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-16T13:04:48.300-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:48.300-0400] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-05-15 00:00:00+00:00, run_after=2025-05-16 00:00:00+00:00
 [2025-05-16T13:04:48.318-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.061 seconds
+[2025-05-16T16:11:04.097-0400] {processor.py:186} INFO - Started process (PID=95244) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:11:04.107-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-05-16T16:11:04.108-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:11:04.108-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:11:04.116-0400] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:11:04.131-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:11:04.130-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:11:04.147-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:11:04.147-0400] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-05-15 00:00:00+00:00, run_after=2025-05-16 00:00:00+00:00
+[2025-05-16T16:11:04.161-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.068 seconds
+[2025-05-16T16:11:59.714-0400] {processor.py:186} INFO - Started process (PID=95492) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:11:59.715-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-05-16T16:11:59.717-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:11:59.717-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:11:59.725-0400] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:11:59.736-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:11:59.736-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:11:59.753-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:11:59.753-0400] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-05-15 00:00:00+00:00, run_after=2025-05-16 00:00:00+00:00
+[2025-05-16T16:11:59.767-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2025-05-16T16:12:56.675-0400] {processor.py:186} INFO - Started process (PID=95720) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:12:56.684-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-05-16T16:12:56.686-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:12:56.685-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:12:56.693-0400] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:12:56.703-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:12:56.703-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:12:56.717-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:12:56.717-0400] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-05-15 00:00:00+00:00, run_after=2025-05-16 00:00:00+00:00
+[2025-05-16T16:12:56.731-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.059 seconds
+[2025-05-16T16:13:53.980-0400] {processor.py:186} INFO - Started process (PID=95948) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:13:53.990-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-05-16T16:13:53.992-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:13:53.992-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:13:54.000-0400] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:13:54.014-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:13:54.014-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:13:54.027-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:13:54.027-0400] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-05-15 00:00:00+00:00, run_after=2025-05-16 00:00:00+00:00
+[2025-05-16T16:13:54.039-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.062 seconds
+[2025-05-16T16:14:49.151-0400] {processor.py:186} INFO - Started process (PID=96173) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:14:49.152-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-05-16T16:14:49.153-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:14:49.153-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:14:49.160-0400] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-16T16:14:49.172-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:14:49.172-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T16:14:49.187-0400] {logging_mixin.py:190} INFO - [2025-05-16T16:14:49.187-0400] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-05-15 00:00:00+00:00, run_after=2025-05-16 00:00:00+00:00
+[2025-05-16T16:14:49.201-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.056 seconds
