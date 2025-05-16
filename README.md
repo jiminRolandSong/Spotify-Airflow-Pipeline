@@ -22,35 +22,31 @@ This project automates the extraction, transformation, and loading (ETL) of Spot
 
 ## 📁 Folder Structure
 
-\`\`\`
+```
 MSP/
-├── airflow/                # Airflow DAGs and final cleaned CSV files
+├── airflow/                  # Airflow DAGs and final cleaned CSV files
 │   ├── dags/
 │   ├── logs/
 │   ├── airflow.cfg
 │   ├── airflow.db
 │   └── cleaned_*.csv
-│
-├── dashboard/              # Django project for API dashboard
-│   ├── dashboard/          # Django project settings and root URLs
-│   ├── dashboard_venv/     # Virtual environment (should be gitignored)
-│   └── spotify_api/        # App exposing Spotify data via REST API
-│
-├── scripts/                # ETL scripts (called by Airflow)
+├── dashboard/                # Django project for API dashboard
+│   ├── dashboard/            # Django project settings and root URLs
+│   ├── dashboard_venv/       # Virtual environment (should be gitignored)
+│   └── spotify_api/          # App exposing Spotify data via REST API
+├── scripts/                  # ETL scripts (called by Airflow)
 │   ├── extract_spotify.py
 │   ├── transform_spotify.py
 │   └── load_spotify.py
-│
-├── db.sqlite3              # Local SQLite DB for Django (for development)
-├── manage.py               # Django entrypoint
-│
-├── .env                    # Environment variables for Snowflake, Spotify
-├── .gitignore              # Git ignore list
-├── README.md               # You're reading it!
-├── requirements.txt        # Project dependencies
-├── start_airflow.sh        # Launch Airflow (scheduler + webserver)
-└── stop_airflow.sh         # Shutdown Airflow
-\`\`\`
+├── db.sqlite3                # Local SQLite DB for Django (for development)
+├── manage.py                 # Django entrypoint
+├── .env                      # Environment variables for Snowflake, Spotify
+├── .gitignore                # Git ignore list
+├── README.md                 # You're reading it!
+├── requirements.txt          # Project dependencies
+├── start_airflow.sh          # Launch Airflow (scheduler + webserver)
+└── stop_airflow.sh           # Shutdown Airflow
+```
 
 ---
 
@@ -58,25 +54,29 @@ MSP/
 
 ### 1. Environment Setup
 
-\`\`\`bash
-# (Recommended) Create virtual environments
+#### (Recommended) Create virtual environments
+```bash
 python3 -m venv airflow_venv
 source airflow_venv/bin/activate
+```
 
-# Install dependencies
+#### Install dependencies
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 2. Configure Environment Variables
 
 Create a `.env` file in the root directory with the following:
 
-\`\`\`ini
-# Spotify API
+#### Spotify API
+```env
 client_id=YOUR_SPOTIFY_CLIENT_ID
 client_secret=YOUR_SPOTIFY_CLIENT_SECRET
+```
 
-# Snowflake credentials
+#### Snowflake credentials
+```env
 SNOWFLAKE_ACCOUNT=...
 SNOWFLAKE_USER=...
 SNOWFLAKE_PASSWORD=...
@@ -84,36 +84,36 @@ SNOWFLAKE_ROLE=...
 SNOWFLAKE_WAREHOUSE=...
 SNOWFLAKE_DATABASE=...
 SNOWFLAKE_SCHEMA=...
-\`\`\`
+```
 
 ### 3. Run Airflow ETL
 
-\`\`\`bash
+```bash
 ./start_airflow.sh
-\`\`\`
+```
 
 Access Airflow UI: [http://localhost:8081](http://localhost:8081)  
-Trigger the DAG: \`spotify_pipeline\`
+Trigger the DAG: `spotify_pipeline`
 
 ### 4. Run Django API
 
-\`\`\`bash
+```bash
 cd dashboard
 source dashboard_venv/bin/activate
 python manage.py runserver
-\`\`\`
+```
 
-API is now available at: \`http://127.0.0.1:8000/api/artist-streams/\`
+API is now available at: `http://127.0.0.1:8000/api/artist-streams/`
 
 ---
 
 ## 📡 API Endpoints
 
-| Endpoint                         | Description                       |
-|----------------------------------|-----------------------------------|
-| \`/api/artist-streams/\`          | Returns latest artist stream data |
-| \`/api/playlists/\`               | (Planned) Playlist metadata       |
-| \`/api/playlist-streams/\`        | (Planned) Playlist track streams  |
+| Endpoint                  | Description                       |
+|---------------------------|-----------------------------------|
+| `/api/artist-streams/`    | Returns latest artist stream data |
+| `/api/playlists/`         | (Planned) Playlist metadata       |
+| `/api/playlist-streams/`  | (Planned) Playlist track streams  |
 
 ---
 
