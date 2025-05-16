@@ -1,0 +1,15 @@
+[2025-05-16T13:00:13.409-0400] {processor.py:186} INFO - Started process (PID=58664) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-05-16T13:00:13.410-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-05-16T13:00:13.411-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:13.410-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-05-16T13:00:13.412-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-05-16T13:00:13.422-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-05-16T13:03:43.090-0400] {processor.py:186} INFO - Started process (PID=59087) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-05-16T13:03:43.091-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-05-16T13:03:43.093-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:43.092-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-05-16T13:03:43.095-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-05-16T13:03:43.106-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.021 seconds
+[2025-05-16T13:04:58.039-0400] {processor.py:186} INFO - Started process (PID=59531) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-05-16T13:04:58.041-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-05-16T13:04:58.042-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:58.042-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-05-16T13:04:58.044-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-05-16T13:04:58.050-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds

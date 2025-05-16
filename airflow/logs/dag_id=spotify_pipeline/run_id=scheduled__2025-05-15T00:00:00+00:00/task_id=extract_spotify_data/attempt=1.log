@@ -1,0 +1,50 @@
+[2025-05-16T12:59:32.025-0400] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-16T12:59:32.033-0400] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_pipeline.extract_spotify_data scheduled__2025-05-15T00:00:00+00:00 [queued]>
+[2025-05-16T12:59:32.037-0400] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_pipeline.extract_spotify_data scheduled__2025-05-15T00:00:00+00:00 [queued]>
+[2025-05-16T12:59:32.038-0400] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-05-16T12:59:32.050-0400] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_spotify_data> on 2025-05-15 00:00:00+00:00
+[2025-05-16T12:59:32.060-0400] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'spotify_pipeline', 'extract_spotify_data', 'scheduled__2025-05-15T00:00:00+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/spotify_pipeline.py', '--cfg-path', '/tmp/tmptjypl_rj']
+[2025-05-16T12:59:32.061-0400] {logging_mixin.py:190} WARNING - /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=58345) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-16T12:59:32.062-0400] {standard_task_runner.py:105} INFO - Job 110: Subtask extract_spotify_data
+[2025-05-16T12:59:32.062-0400] {standard_task_runner.py:72} INFO - Started process 58411 to run task
+[2025-05-16T12:59:32.112-0400] {task_command.py:467} INFO - Running <TaskInstance: spotify_pipeline.extract_spotify_data scheduled__2025-05-15T00:00:00+00:00 [running]> on host BOOK-NSV5SP728N.
+[2025-05-16T12:59:32.198-0400] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='aanga' AIRFLOW_CTX_DAG_ID='spotify_pipeline' AIRFLOW_CTX_TASK_ID='extract_spotify_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-15T00:00:00+00:00'
+[2025-05-16T12:59:32.200-0400] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-16T12:59:32.200-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-16T12:59:32.201-0400] {logging_mixin.py:190} INFO - Current task name:extract_spotify_data state:running start_date:2025-05-16 16:59:32.033606+00:00
+[2025-05-16T12:59:32.201-0400] {logging_mixin.py:190} INFO - Dag name:spotify_pipeline and current dag run status:running
+[2025-05-16T12:59:32.201-0400] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-16T12:59:33.763-0400] {logging_mixin.py:190} INFO - Artist Streams DataFrame:
+[2025-05-16T12:59:33.774-0400] {logging_mixin.py:190} INFO -                 artist_id artist_name          track_name  ...  followers     genres  extraction_date
+0  5Z71xE9prhpHrqL5thVMyK     tripleS     Girls Never Die  ...     582647  ["k-pop"]       2025-05-16
+1  5Z71xE9prhpHrqL5thVMyK     tripleS  깨어 (Are You Alive)  ...     582647  ["k-pop"]       2025-05-16
+2  5Z71xE9prhpHrqL5thVMyK     tripleS          Generation  ...     582647  ["k-pop"]       2025-05-16
+3  5Z71xE9prhpHrqL5thVMyK     tripleS              Rising  ...     582647  ["k-pop"]       2025-05-16
+4  5Z71xE9prhpHrqL5thVMyK     tripleS   Girls' Capitalism  ...     582647  ["k-pop"]       2025-05-16
+
+[5 rows x 8 columns]
+[2025-05-16T12:59:37.567-0400] {logging_mixin.py:190} INFO - Playlists DataFrame:
+[2025-05-16T12:59:37.571-0400] {logging_mixin.py:190} INFO -               playlist_id              playlist_name  ... total_tracks  extraction_date
+0  7vhaamErffNetyvUgueBs3     Jimin Painkillers 2025  ...           62       2025-05-16
+1  2wazkzhuzpipWcVKjOa7Vg  Jimin Spring 2025 Bangers  ...           75       2025-05-16
+
+[2 rows x 6 columns]
+[2025-05-16T12:59:37.572-0400] {logging_mixin.py:190} INFO - Playlists Tracks Streams DataFrame:
+[2025-05-16T12:59:37.580-0400] {logging_mixin.py:190} INFO -               playlist_id                track_id  ... duration_ms extraction_date
+0  7vhaamErffNetyvUgueBs3  076VrUmpXj8ehHyxTtI67o  ...      227746      2025-05-16
+1  7vhaamErffNetyvUgueBs3  0KEgaOvobKmv9VVQg2WI0P  ...      186720      2025-05-16
+2  7vhaamErffNetyvUgueBs3  0UWSpwkLFzCygKbpDNp0Op  ...      201013      2025-05-16
+3  7vhaamErffNetyvUgueBs3  54qwqftG3xaMhMQ6KNYFO3  ...      200240      2025-05-16
+4  7vhaamErffNetyvUgueBs3  6uosenLUNFZtOIih5T0qfV  ...      181560      2025-05-16
+
+[5 rows x 8 columns]
+[2025-05-16T12:59:37.581-0400] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-16T12:59:37.586-0400] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-16T12:59:37.586-0400] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=spotify_pipeline, task_id=extract_spotify_data, run_id=scheduled__2025-05-15T00:00:00+00:00, execution_date=20250515T000000, start_date=20250516T165932, end_date=20250516T165937
+[2025-05-16T12:59:37.607-0400] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-16T12:59:37.608-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-16T12:59:37.608-0400] {logging_mixin.py:190} INFO - Dag name:spotify_pipeline queued_at:2025-05-16 16:59:28.410262+00:00
+[2025-05-16T12:59:37.608-0400] {logging_mixin.py:190} INFO - Task hostname:BOOK-NSV5SP728N. operator:PythonOperator
+[2025-05-16T12:59:37.650-0400] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-16T12:59:37.669-0400] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-16T12:59:37.676-0400] {local_task_job_runner.py:245} INFO - ::endgroup::

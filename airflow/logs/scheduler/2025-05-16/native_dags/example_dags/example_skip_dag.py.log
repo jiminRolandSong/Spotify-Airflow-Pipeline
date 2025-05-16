@@ -1,0 +1,21 @@
+[2025-05-16T13:00:43.610-0400] {processor.py:186} INFO - Started process (PID=58803) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-16T13:00:43.611-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-05-16T13:00:43.611-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:43.611-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-16T13:00:43.616-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-16T13:00:43.626-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:43.626-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:00:43.636-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:43.635-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-05-15 00:00:00+00:00, run_after=2025-05-16 00:00:00+00:00
+[2025-05-16T13:00:43.649-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.043 seconds
+[2025-05-16T13:03:35.078-0400] {processor.py:186} INFO - Started process (PID=59044) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-16T13:03:35.079-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-05-16T13:03:35.080-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:35.080-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-16T13:03:35.085-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-16T13:03:35.097-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:35.096-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:03:35.107-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:35.107-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-05-15 00:00:00+00:00, run_after=2025-05-16 00:00:00+00:00
+[2025-05-16T13:03:35.119-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.046 seconds
+[2025-05-16T13:04:29.344-0400] {processor.py:186} INFO - Started process (PID=59330) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-16T13:04:29.345-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-05-16T13:04:29.346-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:29.345-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-16T13:04:29.351-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-16T13:04:29.364-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:29.364-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:04:29.376-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:29.376-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-05-15 00:00:00+00:00, run_after=2025-05-16 00:00:00+00:00
+[2025-05-16T13:04:29.390-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.050 seconds

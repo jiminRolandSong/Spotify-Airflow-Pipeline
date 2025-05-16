@@ -1,0 +1,21 @@
+[2025-05-16T13:02:51.584-0400] {processor.py:186} INFO - Started process (PID=58853) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-16T13:02:51.585-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-16T13:02:51.587-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:02:51.586-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-16T13:02:51.602-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-16T13:02:51.622-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:02:51.622-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:02:51.654-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:02:51.654-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-05-16 17:00:00+00:00, run_after=2025-05-16 17:02:00+00:00
+[2025-05-16T13:02:51.685-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.107 seconds
+[2025-05-16T13:03:55.637-0400] {processor.py:186} INFO - Started process (PID=59140) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-16T13:03:55.639-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-16T13:03:55.639-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:55.639-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-16T13:03:55.645-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-16T13:03:55.655-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:55.655-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:03:55.667-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:55.667-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-05-16 17:00:00+00:00, run_after=2025-05-16 17:02:00+00:00
+[2025-05-16T13:03:55.681-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.048 seconds
+[2025-05-16T13:04:44.862-0400] {processor.py:186} INFO - Started process (PID=59413) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-16T13:04:44.864-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-16T13:04:44.864-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:44.864-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-16T13:04:44.870-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-16T13:04:44.879-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:44.879-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:04:44.891-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:44.891-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-05-16 17:02:00+00:00, run_after=2025-05-16 17:04:00+00:00
+[2025-05-16T13:04:44.910-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.052 seconds

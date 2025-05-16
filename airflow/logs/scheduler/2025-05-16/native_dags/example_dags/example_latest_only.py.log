@@ -1,0 +1,21 @@
+[2025-05-16T13:00:46.494-0400] {processor.py:186} INFO - Started process (PID=58812) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-05-16T13:00:46.495-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-05-16T13:00:46.496-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:46.495-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-05-16T13:00:46.500-0400] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-05-16T13:00:46.510-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:46.509-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:00:46.520-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:46.520-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-05-16 12:00:00+00:00, run_after=2025-05-16 16:00:00+00:00
+[2025-05-16T13:00:46.533-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.042 seconds
+[2025-05-16T13:03:37.948-0400] {processor.py:186} INFO - Started process (PID=59053) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-05-16T13:03:37.950-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-05-16T13:03:37.951-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:37.951-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-05-16T13:03:37.956-0400] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-05-16T13:03:37.967-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:37.966-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:03:37.978-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:37.977-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-05-16 12:00:00+00:00, run_after=2025-05-16 16:00:00+00:00
+[2025-05-16T13:03:37.990-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2025-05-16T13:04:32.294-0400] {processor.py:186} INFO - Started process (PID=59352) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-05-16T13:04:32.295-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-05-16T13:04:32.296-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:32.296-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-05-16T13:04:32.300-0400] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-05-16T13:04:32.310-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:32.310-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:04:32.321-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:32.321-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-05-16 12:00:00+00:00, run_after=2025-05-16 16:00:00+00:00
+[2025-05-16T13:04:32.341-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds

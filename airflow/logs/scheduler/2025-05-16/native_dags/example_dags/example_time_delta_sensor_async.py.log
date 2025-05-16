@@ -1,0 +1,21 @@
+[2025-05-16T13:00:09.574-0400] {processor.py:186} INFO - Started process (PID=58643) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-05-16T13:00:09.575-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-05-16T13:00:09.576-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:09.576-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-05-16T13:00:09.580-0400] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-05-16T13:00:09.592-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:09.591-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:00:09.600-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:00:09.599-0400] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-05-16T13:00:09.615-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.044 seconds
+[2025-05-16T13:03:41.244-0400] {processor.py:186} INFO - Started process (PID=59068) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-05-16T13:03:41.245-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-05-16T13:03:41.246-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:41.246-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-05-16T13:03:41.250-0400] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-05-16T13:03:41.261-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:41.261-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:03:41.268-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:03:41.268-0400] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-05-16T13:03:41.282-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.042 seconds
+[2025-05-16T13:04:54.094-0400] {processor.py:186} INFO - Started process (PID=59499) to work on /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-05-16T13:04:54.105-0400] {processor.py:914} INFO - Processing file /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-05-16T13:04:54.106-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:54.106-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-05-16T13:04:54.110-0400] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-05-16T13:04:54.122-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:54.121-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-16T13:04:54.129-0400] {logging_mixin.py:190} INFO - [2025-05-16T13:04:54.129-0400] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-05-16T13:04:54.144-0400] {processor.py:208} INFO - Processing /home/aangava/MSP/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.054 seconds
