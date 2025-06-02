@@ -1,10 +1,10 @@
-# 🎧 Spotify ETL Pipeline with Airflow + Snowflake + Django REST API
+# Spotify ETL Pipeline with Airflow + Snowflake + Django REST API
 
 This project automates the extraction, transformation, and loading (ETL) of Spotify streaming data using Apache Airflow and stores the results in Snowflake. A Django REST API is provided to access and visualize the latest artist and playlist data.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **ETL Workflow with Airflow**
   - Extracts artist and playlist data from Spotify using the Spotify API.
@@ -20,7 +20,7 @@ This project automates the extraction, transformation, and loading (ETL) of Spot
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 MSP/
@@ -50,7 +50,7 @@ MSP/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### 1. Environment Setup
 
@@ -117,7 +117,7 @@ API is now available at: `http://127.0.0.1:8000/api/artist-streams/`
 
 ---
 
-## ✅ Example Use Cases
+## Example Use Cases
 
 - Analyze artist popularity trends using Spotify’s top track metrics.
 - Monitor playlists performance (follower count, top tracks).
@@ -126,14 +126,10 @@ API is now available at: `http://127.0.0.1:8000/api/artist-streams/`
 
 ---
 
-## 🧠 Future Work
+## Future Work
 
 - Add more API endpoints (e.g., by genre, popularity ranges).
 - Connect to BI tools like Tableau or Superset via Snowflake.
 - Add visual dashboard with Django templates or frontend framework.
 
 ---
-
-## 👤 Author
-
-Made with 💚 by [Jimin Song](https://github.com/jiminRolandSong)
