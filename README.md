@@ -107,7 +107,7 @@ API is now available at: `http://127.0.0.1:8000/api/artist-streams/`
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Endpoint                  | Description                       |
 |---------------------------|-----------------------------------|
