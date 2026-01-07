@@ -20,37 +20,39 @@ This project automates the extraction, transformation, and loading (ETL) of Spot
 
 ---
 
+
 ## 📁 Folder Structure
 
-\`\`\`
+
+```
 MSP/
-├── airflow/                # Airflow DAGs and final cleaned CSV files
-│   ├── dags/
-│   ├── logs/
-│   ├── airflow.cfg
-│   ├── airflow.db
-│   └── cleaned_*.csv
+├── airflow/ # Airflow DAGs and final cleaned CSV files
+│ ├── dags/
+│ ├── logs/
+│ ├── airflow.cfg
+│ ├── airflow.db
+│ └── cleaned_*.csv
 │
-├── dashboard/              # Django project for API dashboard
-│   ├── dashboard/          # Django project settings and root URLs
-│   ├── dashboard_venv/     # Virtual environment (should be gitignored)
-│   └── spotify_api/        # App exposing Spotify data via REST API
+├── dashboard/ # Django project for API dashboard
+│ ├── dashboard/ # Django project settings and root URLs
+│ ├── dashboard_venv/ # Virtual environment (should be gitignored)
+│ └── spotify_api/ # App exposing Spotify data via REST API
 │
-├── scripts/                # ETL scripts (called by Airflow)
-│   ├── extract_spotify.py
-│   ├── transform_spotify.py
-│   └── load_spotify.py
+├── scripts/ # ETL scripts (called by Airflow)
+│ ├── extract_spotify.py
+│ ├── transform_spotify.py
+│ └── load_spotify.py
 │
-├── db.sqlite3              # Local SQLite DB for Django (for development)
-├── manage.py               # Django entrypoint
+├── db.sqlite3 # Local SQLite DB for Django (for development)
+├── manage.py # Django entrypoint
 │
-├── .env                    # Environment variables for Snowflake, Spotify
-├── .gitignore              # Git ignore list
-├── README.md               # You're reading it!
-├── requirements.txt        # Project dependencies
-├── start_airflow.sh        # Launch Airflow (scheduler + webserver)
-└── stop_airflow.sh         # Shutdown Airflow
-\`\`\`
+├── .env # Environment variables for Snowflake, Spotify
+├── .gitignore # Git ignore list
+├── README.md # You're reading it!
+├── requirements.txt # Project dependencies
+├── start_airflow.sh # Launch Airflow (scheduler + webserver)
+└── stop_airflow.sh # Shutdown Airflow
+```
 
 ---
 
@@ -58,25 +60,23 @@ MSP/
 
 ### 1. Environment Setup
 
-\`\`\`bash
-# (Recommended) Create virtual environments
+#### (Recommended) Create virtual environments
 python3 -m venv airflow_venv
 source airflow_venv/bin/activate
 
-# Install dependencies
+#### Install dependencies
 pip install -r requirements.txt
-\`\`\`
+
 
 ### 2. Configure Environment Variables
 
 Create a `.env` file in the root directory with the following:
 
-\`\`\`ini
-# Spotify API
+#### Spotify API
 client_id=YOUR_SPOTIFY_CLIENT_ID
 client_secret=YOUR_SPOTIFY_CLIENT_SECRET
 
-# Snowflake credentials
+#### Snowflake credentials
 SNOWFLAKE_ACCOUNT=...
 SNOWFLAKE_USER=...
 SNOWFLAKE_PASSWORD=...
