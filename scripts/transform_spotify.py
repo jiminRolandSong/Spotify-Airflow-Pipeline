@@ -2,6 +2,9 @@ import pandas as pd
 import json
 import os
 from datetime import datetime
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__))) # scripts 폴더 인식용
+from data_validation import run_validation
 
 def clean_artist_data(df):
     if df.empty:
@@ -96,6 +99,7 @@ def main():
 
     print("\nCleaned Playlist Tracks Streams:")
     print(playlist_tracks_df.head())
+    run_validation()
 
 if __name__ == "__main__":
     main()

@@ -119,6 +119,17 @@ API is now available at: `http://127.0.0.1:8000/api/artist-streams/`
 
 ---
 
+## 🛡️ Automated Data Validation Suite (QA Module)
+This project includes a dedicated validation layer (`scripts/data_validation.py`) to ensure high data quality before the loading phase.
+
+* **Schema Compliance:** Automatically verifies that incoming JSON data matches the expected schema for the Data Warehouse.
+* **Data Integrity Alerts:**
+    * Detects and logs `NULL` values in critical fields (e.g., `track_id`, `artist_name`).
+    * Validates logic rules (e.g., `duration_ms` cannot be negative).
+* **Idempotency Checks:** logic integrated into the Load phase ensures no duplicate records are created during retries.
+
+---
+
 ## Example Use Cases
 
 - Analyze artist popularity trends using Spotify’s top track metrics.
@@ -127,6 +138,8 @@ API is now available at: `http://127.0.0.1:8000/api/artist-streams/`
 - Extendable for frontend dashboards (e.g., React, Chart.js).
 
 ---
+
+
 
 ## Future Work
 
